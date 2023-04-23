@@ -1,4 +1,4 @@
-# AR6 Scenario Explorer Analysis
+# AR6 Scenario Explorer Analysis-Demo
 
 This project involves analyzing some salient aspects of the AR6 Scenario Explorer and creating a set of figures and tables to illustrate the findings using `pyam`. The analysis includes exploring emission trajectories and energy system configurations.
 
