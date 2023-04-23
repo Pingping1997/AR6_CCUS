@@ -27,7 +27,9 @@ The analysis was performed using pyam to extract relevant data and create visual
 The figures generated include:
 
    - Emission trajectories for different scenarios
-   - Energy system configurations for different scenarios\\
+   - Energy system configurations for different scenarios
+   
+   
 Here's an example:
 
 ```py
