@@ -1,9 +1,9 @@
 # AR6 Scenario Explorer Analysis-Demo
 
-This project involves analyzing some salient aspects of the AR6 Scenario Explorer and creating a set of figures and tables to illustrate the findings using `pyam`. The analysis includes exploring emission trajectories and energy system configurations.
+This project involves analyzing some salient aspects of the AR6 Scenario Explorer and creating a set of figures and tables to illustrate the findings using [`pyam`](https://pyam-iamc.readthedocs.io/en/stable/index.html). The analysis includes exploring emission trajectories and energy system configurations.
 
 ## Introduction
-The AR6 Scenario Explorer provides a comprehensive database of scenarios for exploring the impacts of climate change on various aspects of the environment. In this project, we analyzed the data to gain insights into the emission trajectories and energy system configurations in the different scenarios.
+The [AR6 Scenario Explorer](https://data.ece.iiasa.ac.at/ar6/#/workspaces) provides a comprehensive database of scenarios for exploring the impacts of climate change on various aspects of the environment. In this project, we analyzed the data to gain insights into the emission trajectories and energy system configurations in the different scenarios.
 
 ## Installation
 
