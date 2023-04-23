@@ -36,11 +36,22 @@ import matplotlib.pyplot as plt
 import pyam
 # import AR6 database
 df = pyam.IamDataFrame(data='AR6_Scenarios_Database.csv')
-# Filtering for model='MESSAGE*' will return all scenarios provided by the MESSAGEix-GLOBIOM 1.0 model
+# Filtering for model='MESSAGE*' 
 df.filter(model='MESSAGE*').scenario
+# Displaying
+display_df = df.filter(model='MESSAGE*',scenario ='CD-LINKS_NPi2020_1000', variable='Primary Energy|*CCS', level='1-', region='R5OECD90+EU')
+display_df.timeseries()
+# Plotting
+data = df.filter(model='MESSAGE*',scenario ='CD-LINKS_NPi2020_1000', variable='Primary Energy|*CCS', level='1-', region='R5OECD90+EU')
+
+data.plot.stack(stack="variable", cmap="tab20", total=True)
+plt.legend(loc=1)
+plt.tight_layout()
+plt.show()
+```
 
 ## Contribution
-Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+Please feel free to cooperate and discuss!
 
 ## License
 This project is licensed under the open source [MIT
