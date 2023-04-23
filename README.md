@@ -51,7 +51,7 @@ plt.legend(loc=1)
 plt.tight_layout()
 plt.show()
 ```
-
+![image](demo01.png)
 ## Contribution
 Please feel free to cooperate and discuss!
 
